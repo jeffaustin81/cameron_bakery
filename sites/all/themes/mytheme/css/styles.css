@@ -20,3 +20,99 @@
 /* SMACSS theme rules */
 /* @import "theme-A.css"; */
 /* @import "theme-B.css"; */
+
+.header {
+    background: #FFB85A;
+}
+
+.header__logo {
+    padding-right: 30px;
+    color: #fff;
+}
+
+#navigation {
+    background: tomato;
+    height: auto;
+    border-top: 1px solid #fff;
+}
+
+#navigation ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 5px;
+}
+
+#navigation ul li {
+    border-right: 1px solid #fff;
+}
+
+#navigation ul li a:hover {
+    color: #ccc;
+}
+
+.form-text {
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.breadcrumb ol li a {
+    text-decoration: none;
+    display: none;
+}
+
+.form-submit {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 1.1rem;
+}
+
+#edit-submit:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad
+}
+
+.node-title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.node-title a:hover {
+    color: #ccc;
+}
+
+.header__site-link:hover {
+    text-decoration: none;
+
+}
+
+.header__site-link {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.feed-icon {
+    display: none;
+}

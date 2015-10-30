@@ -13,7 +13,7 @@
 
 screenshot  = screenshot.png
 name        = mytheme
-description = Read the <a href="https://drupal.org/node/873778">online docs</a> or the included README.txt on how to create a theme with Zen.
+description = This is a sub theme of zen.
 
 
 
