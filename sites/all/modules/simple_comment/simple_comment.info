@@ -1,0 +1,5 @@
+name = Simple Comment
+description = Handles custom comment form for Cameron's Bakery.
+package = Cameron Modules
+core = 7.x
+files[] = simple_comment.module
